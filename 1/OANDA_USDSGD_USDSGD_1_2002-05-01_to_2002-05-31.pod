@@ -1,0 +1,101 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_SGD",
+  "granularity": "M1",
+  "chunk_start": "2002-05-01",
+  "chunk_end": "2002-05-31",
+  "parquet_file": "OANDA_USDSGD_USDSGD_1_2002-05-01_to_2002-05-31.parquet",
+  "data_file": "OANDA_USDSGD_USDSGD_1_2002-05-01_to_2002-05-31.parquet",
+  "row_count": 20,
+  "first_candle": {
+    "time": 1020804120,
+    "Time": "2002-05-07T20:42:00.000000000Z",
+    "open": 1.8073,
+    "high": 1.8073,
+    "low": 1.8073,
+    "close": 1.8073,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1022878560,
+    "Time": "2002-05-31T20:56:00.000000000Z",
+    "open": 1.7887,
+    "high": 1.7887,
+    "low": 1.7887,
+    "close": 1.7887,
+    "volume": 1
+  },
+  "csv_file": "OANDA_USDSGD_USDSGD_1_2002-05-01_to_2002-05-31.parquet",
+  "csv_row_count": 20,
+  "csv_first_candle": {
+    "time": 1020804120,
+    "Time": "2002-05-07T20:42:00.000000000Z",
+    "open": 1.8073,
+    "high": 1.8073,
+    "low": 1.8073,
+    "close": 1.8073,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1022878560,
+    "Time": "2002-05-31T20:56:00.000000000Z",
+    "open": 1.7887,
+    "high": 1.7887,
+    "low": 1.7887,
+    "close": 1.7887,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:28:24.000000000Z",
+  "generated_at": "2026-10-16T02:28:24.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2572,
+    "chunk_api_blocks": 7,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2002-05-07T20:42:00Z",
+        "to": "2002-05-11T08:02:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-11T08:02:00Z",
+        "to": "2002-05-14T19:22:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-14T19:22:00Z",
+        "to": "2002-05-18T06:42:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-18T06:42:00Z",
+        "to": "2002-05-21T18:02:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-21T18:02:00Z",
+        "to": "2002-05-25T05:22:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-25T05:22:00Z",
+        "to": "2002-05-28T16:42:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2002-05-28T16:42:00Z",
+        "to": "2002-06-01T04:02:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
